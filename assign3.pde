@@ -176,6 +176,7 @@ void showSlot(int col, int row, int slotState){
 
 // select num of bombs
 void mouseClicked(){
+slotState=SLOT_OFF;
   if ( gameState == GAME_START &&
        mouseY > width/3 && mouseY < width/3+50){
        // select 1~9
